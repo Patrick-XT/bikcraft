@@ -1,0 +1,64 @@
+.contato-formulario {
+  background: var(--cor-0);
+  border-radius: 0 5px 5px 0;
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 60px;
+}
+.form input {
+  width: 100%;
+  background: var(--cor-1);
+  border-radius: 4px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid var(--cor-2);
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+.form input:focus {
+  outline: none;
+  border-color: var(--cor-p1);
+  background: var(--cor-0);
+  box-shadow: 0 0 0 2px #fea;
+}
+.form textarea {
+  width: 100%;
+  background: var(--cor-2);
+  border-radius: 4px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid var(--cor-2);
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+.form textarea:focus {
+  outline: none;
+  border-color: var(--cor-p1);
+  background: var(--cor-0);
+  box-shadow: 0 0 0 2px #fea;
+}
+.form button {
+  border: 1px solid var(--cor-2);
+  text-transform: uppercase;
+}
+.form label {
+  display: block;
+  font: 600 1rem/1.5 "Poppins", sans-serif;
+  margin-bottom: 4px;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+@media (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .bg-geral {
+    background: var(--cor-11);
+    padding-bottom: 32px;
+  }
+}

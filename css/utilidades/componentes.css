@@ -17,6 +17,8 @@
   border-radius: 5px;
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .botao.seta {
   display: flex;
@@ -47,6 +49,8 @@
   border-radius: 5px;
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .botao2:hover {
   background: var(--cor-8);

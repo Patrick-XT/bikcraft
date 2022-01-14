@@ -77,59 +77,12 @@
   padding-left: 28px;
   margin-bottom: 20px;
 }
-
-.contato-formulario {
-  background: var(--cor-0);
-  border-radius: 0 5px 5px 0;
-}
-.form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding: 60px;
-}
-.form input {
-  width: 100%;
-  background: var(--cor-1);
-  border-radius: 4px;
-  padding: 12px;
-  box-sizing: border-box;
-  border: 1px solid var(--cor-2);
-  font: 400 1rem/1.5 "Roboto", sans-serif;
-}
-.form textarea {
-  width: 100%;
-  background: var(--cor-2);
-  border-radius: 4px;
-  padding: 12px;
-  box-sizing: border-box;
-  border: 1px solid var(--cor-2);
-  font: 400 1rem/1.5 "Roboto", sans-serif;
-}
-.form button {
-  border: 1px solid var(--cor-2);
-  text-transform: uppercase;
-}
-.form label {
-  display: block;
-}
-
-.col-2 {
-  grid-column: span 2;
-}
-
 @media (max-width: 900px) {
   .contato {
     grid-template-columns: 1fr;
   }
   .endereco-conteudo {
     grid-row: 2;
-  }
-}
-@media (max-width: 600px) {
-  .form {
-    display: flex;
-    flex-direction: column;
   }
   .bg-geral {
     background: var(--cor-11);

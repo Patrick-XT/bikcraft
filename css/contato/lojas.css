@@ -55,6 +55,9 @@
   .locais {
     grid-template-columns: 1fr;
   }
+  .locais-bg {
+    padding-bottom: 18px;
+  }
 }
 @media (max-width: 600px) {
   .locais-bg {
