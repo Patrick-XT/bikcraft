@@ -2,12 +2,12 @@
   background: var(--cor-11);
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-bottom: 120px;
 }
 
 .termos h2 {
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top: 60px;
 }
 .termos p {
   max-width: 75ch;
