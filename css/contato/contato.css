@@ -131,4 +131,8 @@
     display: flex;
     flex-direction: column;
   }
+  .bg-geral {
+    background: var(--cor-11);
+    padding-bottom: 32px;
+  }
 }
